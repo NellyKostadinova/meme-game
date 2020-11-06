@@ -1,0 +1,39 @@
+@import '../../_styles/vars';
+
+.easel {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  width: 350px;
+  margin: auto auto 70px auto;
+
+  .easel-part {
+    background-color: $white;
+    box-shadow: $shadow;
+    border-radius: 10px;
+  }
+
+  .easel-part {
+    &.title {
+      position: absolute;
+      bottom: 100px;
+      font-size: 50px;
+      padding: 15px 40px;
+      white-space: nowrap;
+    }
+
+    &.arm {
+      width: 50px;
+      height: 800px;
+      display: inline-block;
+
+      &-left {
+        transform: rotate(20deg);
+      }
+
+      &-right {
+        transform: rotate(-20deg);
+      }
+    }
+  }
+}

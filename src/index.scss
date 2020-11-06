@@ -1,0 +1,15 @@
+@import './_styles/vars';
+
+body {
+  font-family: 'Oswald', sans-serif;
+  line-height: 1;
+  padding: 0;
+  margin: 0;
+  background-color: $light-grey;
+}
+
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
