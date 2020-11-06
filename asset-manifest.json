@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/meme-game/static/css/main.e223133f.chunk.css",
+    "main.js": "/meme-game/static/js/main.20b52169.chunk.js",
+    "main.js.map": "/meme-game/static/js/main.20b52169.chunk.js.map",
+    "runtime-main.js": "/meme-game/static/js/runtime-main.db6b975e.js",
+    "runtime-main.js.map": "/meme-game/static/js/runtime-main.db6b975e.js.map",
+    "static/js/2.ec047b8a.chunk.js": "/meme-game/static/js/2.ec047b8a.chunk.js",
+    "static/js/2.ec047b8a.chunk.js.map": "/meme-game/static/js/2.ec047b8a.chunk.js.map",
+    "static/js/3.73bbcb4a.chunk.js": "/meme-game/static/js/3.73bbcb4a.chunk.js",
+    "static/js/3.73bbcb4a.chunk.js.map": "/meme-game/static/js/3.73bbcb4a.chunk.js.map",
+    "index.html": "/meme-game/index.html",
+    "static/css/main.e223133f.chunk.css.map": "/meme-game/static/css/main.e223133f.chunk.css.map",
+    "static/js/2.ec047b8a.chunk.js.LICENSE.txt": "/meme-game/static/js/2.ec047b8a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.db6b975e.js",
+    "static/js/2.ec047b8a.chunk.js",
+    "static/css/main.e223133f.chunk.css",
+    "static/js/main.20b52169.chunk.js"
+  ]
+}
