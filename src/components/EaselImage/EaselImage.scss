@@ -5,9 +5,10 @@
   display: flex;
   align-items: flex-end;
   justify-content: center;
-  bottom: 150px;
-  width: 700px;
-  height: 600px;
+  bottom: calc(10% + 50px);
+  width: 200%;
+  max-width: 90vw;
+  height: 75%;
 
   &[data-style='opaque'] {
     background-color: white;
@@ -19,6 +20,12 @@
     display: block;
     font-size: 64px;
     align-self: center;
+    text-align: center;
+    padding: 20px;
+
+    @include phones {
+      font-size: 30px;
+    }
   }
 
   img {

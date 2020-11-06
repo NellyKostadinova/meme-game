@@ -5,7 +5,10 @@
   display: flex;
   justify-content: space-around;
   width: 350px;
-  margin: auto auto 70px auto;
+  max-width: 50%;
+  height: 85vh;
+  max-height: 750px;
+  margin: auto auto;
 
   .easel-part {
     background-color: $white;
@@ -16,23 +19,27 @@
   .easel-part {
     &.title {
       position: absolute;
-      bottom: 100px;
+      bottom: 10%;
       font-size: 50px;
       padding: 15px 40px;
       white-space: nowrap;
+
+      @include phones {
+        font-size: 30px;
+      }
     }
 
     &.arm {
       width: 50px;
-      height: 800px;
+      height: 100%;
       display: inline-block;
 
       &-left {
-        transform: rotate(20deg);
+        transform: rotate(18deg);
       }
 
       &-right {
-        transform: rotate(-20deg);
+        transform: rotate(-18deg);
       }
     }
   }

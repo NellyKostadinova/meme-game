@@ -52,7 +52,7 @@ export default function Easel() {
       <div className="easel">
         <div className="easel-part arm arm-left"></div>
         <div className="easel-part arm arm-right"></div>
-        <EaselImage showImg={showImg} imgSrc={url} />
+        <EaselImage showImg={showImg} imgSrc={url} onClick={changeImage} />
         <BrandTitle addClasses="easel-part" />
       </div>
     </div>

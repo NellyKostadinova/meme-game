@@ -7,7 +7,8 @@ export default function BrandTitle({ addClasses }) {
     <div className={componentClasses}>
       <span className="teal">what do </span>
       <span className="purple">you </span>
-      <span className="magenta">meme </span>
+      <span className="magenta">meme</span>
+      &nbsp;
       <span className="purple">?</span>
     </div>
   );
